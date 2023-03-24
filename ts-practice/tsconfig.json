@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es5", //컴파일 코드가 어떤 환경(ES5인지 ES6인지와 같은느낌)에서 실행될지 정의
+    "module": "commonjs", //
+    "strict": true, //타입체킹 옵션 활성화
+    "esModuleInterop": true, // ES2015 모듈형태로 불러올수 잇게함
+    "outDir": "./dist"
+  }
+}
